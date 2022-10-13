@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
-// import { store } from './redux/store';
 import App from './App';
 import { createStore, compose, applyMiddleware } from 'redux';
 import createSagaMiddleware from 'redux-saga';
 import { sagaWatcher } from './redux/saga/sagas';
 import { feedbackReducer } from './redux/feedbackReducer';
+import GlobalStyle from './global-styles/global.style';
 
 const saga = createSagaMiddleware()
 
@@ -19,6 +19,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <Provider store={store}>
+    <GlobalStyle />
     <App />
   </Provider>
 );

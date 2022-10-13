@@ -1,13 +1,11 @@
-import './App.css';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from "react-redux";
 import { FeedbackForm } from './components/FeedbackForm/FeedbackForm';
-// import { IFeedbackReducer, IFeedbackState, AppState } from "./types/types1";
 import { fetchFeedbacks } from './redux/actions';
+import { AppContainer } from './components/Container.style';
 
 const feedbacks = [
   {
-    // id: 'sdd',
     name: 'fdsg',
     email: 'fdsfdsa',
     message: 'fsdfdsg'
@@ -18,10 +16,6 @@ function App() {
   const dispatch = useDispatch();
 
   const feedbacksList = useSelector((state: AppState) => state.feedbacksList);
-  // const { name, email, message } = useSelector((state: AppState) => state.feedbackFields)
-
-  // console.log(name);
-  
 
   useEffect(() => {
     localStorage.setItem('feedbacks', JSON.stringify(feedbacks));
@@ -40,11 +34,18 @@ function App() {
   console.log(feedbacksList);
 
   return (
-    <main>
-      <section>
-        <FeedbackForm />
-      </section>
-    </main>
+    <>
+      <AppContainer>
+        <main>
+          <section>
+            <FeedbackForm />
+          </section>
+        </main>
+        <footer>
+
+        </footer>
+      </AppContainer>
+    </>
   );
 }
 
