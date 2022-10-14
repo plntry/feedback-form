@@ -6,5 +6,12 @@ export default createGlobalStyle`
     padding: 0;
     font-family: 'Apercu Arabic Pro';
     background-color: #FAFAFA;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    color: black;
+    opacity: 0.5;
+    background: #FAD34F;
   }
 `

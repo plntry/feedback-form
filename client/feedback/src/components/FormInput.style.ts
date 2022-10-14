@@ -4,11 +4,8 @@ export const FormInput = styled.input`
     box-sizing: border-box;
     padding-left: 46px;
     padding-right: 46px;
-    /* position: absolute; */
     width: 557px;
     height: 93px;
-    /* left: 150px;
-    top: 267px; */
     font-family: 'Apercu Arabic Pro';
     font-size: 18px;
     background: #FFFFFF;
@@ -16,12 +13,13 @@ export const FormInput = styled.input`
     border-radius: 10px;
 
     ::placeholder {
-        
         font-style: normal;
-        font-weight: 400;
-        
+        font-weight: 400;   
         line-height: 180%;
-        /* padding-left: 46px; */
         color: #2D2D2D;
+    }
+
+    @media (max-width: 568px) {
+        width: 85vw;
     }
 `;

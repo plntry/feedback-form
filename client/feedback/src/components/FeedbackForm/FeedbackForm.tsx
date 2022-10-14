@@ -1,7 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { createFeedback } from "../../redux/actions";
 import { setNewUsername, setNewUserEmail, setNewUserMessage } from "../../redux/actions";
-// import { Button } from "../Button.style";
 import { Button } from "../Button.style";
 import { InputsContainer } from "../Container.style";
 import { Form } from "../Form.style";
