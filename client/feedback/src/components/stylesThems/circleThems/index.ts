@@ -34,7 +34,7 @@ export const themeCircle4 = {
     width: "200px",
     height: "200px",
     left: "2.5vw",
-    top: "55.4rem",
+    top: "57.9rem",
     zIndex: "4",
 };
 
@@ -44,6 +44,6 @@ export const themeCircle5 = {
     width: "88.32px",
     height: "85.84px",
     left: "95vw",
-    top: "59.5rem",
+    top: "62.5rem",
     zIndex: "4",
 };
