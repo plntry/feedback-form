@@ -26,7 +26,7 @@ export class SequelizeConfigService implements SequelizeOptionsFactory {
       database,
       models: [Feedback],
       autoLoadModels: true,
-      synchronize: true,
+      synchronize: false,
     };
   }
 }
