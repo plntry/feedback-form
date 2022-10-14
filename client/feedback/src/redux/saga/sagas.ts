@@ -15,7 +15,6 @@ function* sagaCreateFeedback(action: Action): Generator<Effect, void> {
         yield put({ type: IFeedbackActionTypes.CREATE_FEEDBACK_SUCCESS, payload: feedback })
     } catch (error) {
         console.log('error', error);
-        
     }
 }
 
