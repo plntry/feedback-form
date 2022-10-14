@@ -29,18 +29,24 @@ export const FeedbackForm = () => {
                         value={name}
                         type="text"
                         placeholder="Your name*"
+                        minLength={4}
+                        required
                     />
                     <FormInput
                         onChange={(e) => dispatch(setNewUserEmail(e.target.value))}
                         value={email}
                         type="text"
                         placeholder="Your e-mail*"
+                        minLength={5}
+                        required
                     />
                     <FormTextarea
                         onChange={(e) => dispatch(setNewUserMessage(e.target.value))}
                         value={message}
                         rows={4}
                         placeholder="Your message*"
+                        minLength={4}
+                        required
                     />
                 </InputsContainer>
                 <Button>Send message</Button>

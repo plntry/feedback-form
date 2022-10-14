@@ -7,7 +7,7 @@ export const FooterGreenFigure = styled.div`
     position: absolute;
     z-index: 1;
     left: 85vw;
-    top: 55.3rem;
+    top: 57.8rem;
     border-bottom-left-radius: 50% 40%;
     border-bottom-right-radius: 50% 40%;
 
