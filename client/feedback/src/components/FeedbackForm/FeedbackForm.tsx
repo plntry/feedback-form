@@ -1,12 +1,12 @@
 import { useDispatch, useSelector } from "react-redux";
 import { createFeedback } from "../../redux/actions";
 import { setNewUsername, setNewUserEmail, setNewUserMessage } from "../../redux/actions";
-import { Button } from "../Button.style";
+import { Button } from "./Button.style";
 import { InputsContainer } from "../Container.style";
-import { Form } from "../Form.style";
-import { FormHeader } from "../FormHeader.style";
-import { FormInput } from "../FormInput.style";
-import { FormTextarea } from "../FormTextarea.style";
+import { Form } from "./Form.style";
+import { FormHeader } from "./FormHeader.style";
+import { FormInput } from "./FormInput.style";
+import { FormTextarea } from "./FormTextarea.style";
 
 export const FeedbackForm = () => {
     const dispatch = useDispatch()
@@ -46,6 +46,5 @@ export const FeedbackForm = () => {
                 <Button>Send message</Button>
             </Form>
         </>
-        
     )
 }

@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import mapUrl from "../images/image_2022-10-13_20-40-46.png"
+import mapUrl from "../../images/image_2022-10-13_20-40-46.png"
 
 export const MapImg = styled.div`
     background: url(${mapUrl});

@@ -10,9 +10,8 @@ export const Circle = styled.div`
     z-index: ${props => props.theme.zIndex};
     background: ${props => props.theme.bgColor};
 
-    transform: rotate(-35.19deg);
-
     @media (max-width: ${props => props.theme.maxWidthForMedia}) {
         display: none;
+
     }
 `;

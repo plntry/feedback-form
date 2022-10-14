@@ -1,16 +1,16 @@
 export const themeCircle1 = {
     bgColor: "#FAD34F",
-    maxWidthForMedia: "835px",
+    maxWidthForMedia: "1280px",
     width: "88.32px",
     height: "85.84px",
-    left: "3%",
-    top: "3%",
+    left: "2.8vw",
+    top: "1rem",
     zIndex: "1",
 };
 
 export const themeCircle2 = {
     bgColor: "#FAD34F",
-    maxWidthForMedia: "835px",
+    maxWidthForMedia: "1280px",
     width: "127px",
     height: "127px",
     left: "57vw",
@@ -20,7 +20,7 @@ export const themeCircle2 = {
 
 export const themeCircle3 = {
     bgColor: "#F472B7",
-    maxWidthForMedia: "835px",
+    maxWidthForMedia: "1280px",
     width: "214px",
     height: "208px",
     left: "59vw",
@@ -30,17 +30,17 @@ export const themeCircle3 = {
 
 export const themeCircle4 = {
     bgColor: "#F472B7",
-    maxWidthForMedia: "835px",
-    width: "214px",
-    height: "208px",
+    maxWidthForMedia: "1280px",
+    width: "200px",
+    height: "200px",
     left: "2.5vw",
-    top: "54.5rem",
+    top: "55.4rem",
     zIndex: "4",
 };
 
 export const themeCircle5 = {
     bgColor: "#FAD34F",
-    maxWidthForMedia: "835px",
+    maxWidthForMedia: "1280px",
     width: "88.32px",
     height: "85.84px",
     left: "95vw",

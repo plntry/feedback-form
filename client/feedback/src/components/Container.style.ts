@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 export const AppContainer = styled.div`
-    /* background-color: bisque; */
     font-family: 'Apercu Arabic Pro';
     display: flex;
     flex-direction: column;

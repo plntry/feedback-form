@@ -10,8 +10,10 @@ export const Button = styled.button`
     color: white;
     font-family: 'Apercu Arabic Pro';
     font-size: 18px;
+    transition: 0.3s;
 
     &:hover {
         cursor: pointer;
+        background-color: #FDDB68;
     }
 `;
