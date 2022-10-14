@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const FormHeader = styled.form`
+export const FormHeader = styled.p`
     width: 563px;
     height: 58px;
     margin-bottom: 30px;

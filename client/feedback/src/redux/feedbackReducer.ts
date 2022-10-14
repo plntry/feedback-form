@@ -1,4 +1,4 @@
-import { IFeedbackAction, IFeedbackActionTypes } from "../types/types1"
+import { IFeedbackActionTypes } from "../types/types1"
 
 export const initialState: AppState = {
     feedbacksList: [],
@@ -40,7 +40,6 @@ export const feedbackReducer = (state: AppState = initialState, action: Action):
             const { name, email, message } = action.payload;
             
             const newFeedback: Feedback = {
-                // id: Date.now().toString(),
                 name,
                 email,
                 message
